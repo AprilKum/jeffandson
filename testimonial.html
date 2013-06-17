@@ -1,8 +1,10 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+	<head>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive_style.css" />
 	</head>
 
 	<body>
@@ -12,65 +14,81 @@
 					<div id="logo-head-title">Jeffers & Son's</div>
 					<div id="logo-sub-title">Bath Supplies Co.</div>
 				</div>
-				<div id="search" class ="fl">
+				<div id="search" class ="fl m-hidden">
 					<div id="search-form-container">
-						<input id="search-form" type="text"></input><button id="search-form-label" class="gray-button">SEARCH</span>
-					</div>
-				</div>
-				<div id="login" class ="fl">
-					<div id="login-form-container">
-						<button id="login-button" type="button" class="gray-button">LOG IN</button>
-						<div id="login-button-label" class="text-center">Bath Supplies Co.</div>
+						<input id="search-form" type="text"></input>
+						<button id="search-form-btn" class="gray-button">SEARCH</span>
 					</div>
 				</div>
 				<div class="clear"></div>
 			</div>
-			<div id="menu-container">
+			<div id="menu-container" class="m-hidden">
 				<nav id="menu">
 					<ul>
 						<li><a href="index.html">HOME</a></li>
 						<li><a href="about.html">ABOUT</a></li>
-						<li><a href="#">PRODUCTS</a></li>
+						<li><a href="products.html">PRODUCTS</a></li>
 						<li><a href="testimonial.html">TESTIMONIAL</a></li>
-						<li><a href="#">GIFTS</a></li>
-						<li><a href="#">CLEARANCE</a></li>
-						<li><a href="#">CONTACT</a></li>
-						<li><a href="cart.html">CART</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
 					</ul>
 				</nav>
 			</div>
+			<div id="m-menu-container" class="m-visible">
+				<table id="m-menu-table">
+					<tr>
+						<td><a href="index.html">HOME</a></td>
+						<td><a href="about.html">ABOUT</a></td>
+						<td><a href="products.html">PRODUCTS</a></td>
+						<td><a href="testimonial.html">TESTIMONIAL</a></td>
+						<td><a href="contact.html">CONTACT</a></td>
+					</tr>
+				</table>
+			</div>
 			<div id="content-container">
-				<!-- CODE HERE -->
-				<div class="testimonial-container">
-					<div class="testimonial">
-						<img src="images/testimonial-1.jpg" class="testimonial-image"/>
-						<h1>Testimonial 1</h1>
-						<p> blahblahblabhalbhalbhalbhalbhlbahalbhalbhlhblhalbhalbhlbhalbhlahblabhlabhlahbbbbbbbbahlbah lhlaidhfahefkjhefskfhds kjdhsf jksdhf. kjfhskdjfh kdjfhkajdhf. sdkjafdsfhkh.</p>
+				<div id="testimonial-container">
+					<table id="testimonial-table">
+						<tr>
+							<td class="testimonial-image"><img src="images/testimonial/girl.jpg"/></td>
+							<td class="testimonial-quote">
+								<h3>"OMG LOVEEED IT!!!" - Casey (18)</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="testimonial-image"><img src="images/testimonial/man.png"/></td>
+							<td class="testimonial-quote">
+								<h3>"Truly the best product ever" - Jack (30)</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="testimonial-image"><img src="images/testimonial/girl.jpg"/></td>
+							<td class="testimonial-quote">
+								<h3>"Literally, it was beauty that killed the beast" - Sophie  (31)</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+								
+							</td>
+						</tr>
+						<tr>
+							<td class="testimonial-image"><img src="images/testimonial/man.png"/></td>
+							<td class="testimonial-quote">
+								<h3>"10/10 !! What else do you want?"  -  Mike (22)</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+							</td>
+						</tr>
 
-						
-					</div>
-					<div class="testimonial">
-						<img src="images/testimonial-2.jpg" class="testimonial-image"/>
-						<h1>Testimonial 2</h1>
-						<p> blahblahblabhalbhalbhalbhalbhlbahalbhalbhlhblhalbhalbhlbhalbhlahblabhlabhlahbbbbbbbbahlbah lhlaidhfahefkjhefskfhds kjdhsf jksdhf. kjfhskdjfh kdjfhkajdhf. sdkjafdsfhkh.</p>
-					</div>
-					<div class="testimonial">
-						<img src="images/testimonial-3.jpg" class="testimonial-image"/>
-						<h1>Testimonial 3</h1>
-						<p> blahblahblabhalbhalbhalbhalbhlbahalbhalbhlhblhalbhalbhlbhalbhlahblabhlabhlahbbbbbbbbahlbah lhlaidhfahefkjhefskfhds kjdhsf jksdhf. kjfhskdjfh kdjfhkajdhf. sdkjafdsfhkh.</p>
-					</div>
-						
-					
+					</table>
 				</div>
- 
-
-			</div>
-
 
 
 			</div>
-
-
+			<div id="footer">
+					Copyright @ Jeffers & Son's Bath Supplies Co.
+			</div>
 		</div>
 	</body>
 </html>
